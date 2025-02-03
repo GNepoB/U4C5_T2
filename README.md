@@ -1,2 +1,1 @@
-# U4C5_T2
-Atividade 2 da Unidade 4 (cáp. 5): Temporizador
+Código que agenda um alarme para desligar o LED após 3 segundos (3000 ms).
