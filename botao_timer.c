@@ -62,8 +62,8 @@ int64_t turn_off_callback(alarm_id_t id, void *user_data) {
         break;
     case 1:
         gpio_put(LED_vermelho, LED_off);
-        add_alarm_in_ms(3000, turn_off_callback, NULL, false);
         estado = 2;
+        add_alarm_in_ms(3000, turn_off_callback, NULL, false);
         break;
     case 2:
         gpio_put(LED_verde, LED_off);
